@@ -1,0 +1,32 @@
+baseURL = 'https://anzenlabs.com'
+languageCode = 'en-us'
+title = 'Anzen Labs'
+theme = "PaperMod"
+enableRobotsTXT = true
+mathjax = true
+
+[[menu.main]]
+name = "Posts"
+url = "posts/"
+weight = 10
+
+#[[menu.main]]
+#name = "Analysis"
+#url = "analysis/"
+#weight = 20
+
+#[[menu.main]]
+#name = "Archive"
+#url = "archive/"
+#weight = 30
+
+[[menu.main]]
+name = "Search"
+url = "search/"
+weight = 40
+
+
+[Params]
+env = "production"
+ShowReadingTime = true
+ShowCodeCopyButtons = true
