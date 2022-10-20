@@ -26,7 +26,21 @@ url = "search/"
 weight = 40
 
 
-[Params]
+[params]
 env = "production"
 ShowReadingTime = true
 ShowCodeCopyButtons = true
+    [params.homeInfoParams]
+        Title = "What is this blog?"
+        Content = """This blog is just a tool that I use to learn new things.
+                    I'll try to write all the things that I study and do doing my free time.
+                    I'll probably deal with the topics I'm not familiar with, and consequentially, I will not explain some concepts very well, maybe wrongly, so don't take my writing too seriously.
+                    Anyway, If you feel like I made some mistakes or if something can be improved, ping me on Twitter.
+                  """
+    #[[params.socialIcons]]
+    #    name = "github"
+    #    url = "https://github.com/CristianTirelli"
+
+    [[params.socialIcons]]
+        name = "Twitter"
+        url = "https://twitter.com/0xm4110c"
